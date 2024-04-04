@@ -1,0 +1,37 @@
+.calculator {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #6687da;
+  padding: 10px;
+}
+
+.display {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  text-align: right;
+}
+
+button {
+  width: 24%;
+  height: 50px;
+  margin: 5px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #15c52f;
+}
+
+.operator {
+  background-color: #1ca39a;
+}
+
+.clear {
+  background-color: #dd571e;
+}
